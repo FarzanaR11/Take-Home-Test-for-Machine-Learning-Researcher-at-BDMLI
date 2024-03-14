@@ -27,6 +27,17 @@ Capabilities:
 
 Limitations:
 - While LLAMA2 exhibits commendable performance in text summarization tasks, it may encounter challenges in processing out-of-domain data or deciphering intricate contextual nuances in news articles. Thorough evaluation and experimentation are imperative to delineate its limitations accurately.
+  
+ 2. 
+-In this Python code:
+I load and preprocess the News Category Dataset.
+I split the dataset into train and test sets.
+I initialize the T5 model and tokenizer.
+I fine-tune the T5 model on the training set (fine-tuning code depends on the framework used, such as Hugging Face's Trainer).
+I generate summaries for the test set using the fine-tuned model.
+I evaluate the model's performance using accuracy and F1 score.
+I assess the model's architecture and potential for fine-tuning.
+
 
 In essence, the convergence of the News Category Dataset and LLAMA2 offers a promising avenue for training or fine-tuning Large Language Models tailored for text summarization tasks, with a particular emphasis on categorizing and summarizing news articles adeptly.
 
